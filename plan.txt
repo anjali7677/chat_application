@@ -1,0 +1,26 @@
+Plan:
+    -Create npm project
+        (npm init -y): this has given us a package.json files
+        this file contains all the meta data
+
+    -create index, css, js files
+        (style.css and client.js is inside the public folder)
+        index.html inside the root folder
+
+    -install dependencies, express, nodemon(dev, dep.)
+        (npm install express)- to handle all server side code and routing
+        (npm install nodemon -D)- whenever we will edit our server file, then manually we do not have to restart the server everytime.
+
+    -create an express server(server.js)
+        (inside root folder)
+
+    -do frontend part
+
+    -Install and set up socket.ioin server.js and client.js
+        (ctrl+ c to stop listening the server)
+        (npm install socket.io)
+        (npm run dev - to start listening to the server)
+        
+    -client and message logic in client.js
+    -receive message on server and broadcast to all clients
+    -receive message on client and display it
